@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My first post!
+title: testing-copy
 categories: [Some Category, Some Other Category]
 ---
 
