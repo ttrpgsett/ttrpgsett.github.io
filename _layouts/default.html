@@ -16,8 +16,8 @@
   <body>
 
       <header>
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        <h2>{{ page.title | default: site.title }}</h2>
+        <p>{{ page.description | default: site.description }}</p>
       </header>
 
     <div class="wrapper">
@@ -29,10 +29,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+        s
       </footer>
     </div>
   </body>
