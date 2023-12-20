@@ -1,4 +1,11 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-title: ttrpg Sett
-description: Development Diaries for building a mythic xenofiction ttrpg. 
-show_downloads: false
+# Site settings
+permalink: /:title/
+markdown: kramdown
+paginate: 5
+paginate_path: "/:num/"
+date_format: "%b %-d, %Y"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
