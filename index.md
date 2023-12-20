@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Title
 description: This tells you what I'm about.
-categories: [Some Category, Some Other Category]
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
