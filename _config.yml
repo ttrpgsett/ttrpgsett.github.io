@@ -10,4 +10,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 title: ttrpg Sett
-#baseurl: https://ttrpgsett.github.io
+baseurl: https://ttrpgsett.github.io
