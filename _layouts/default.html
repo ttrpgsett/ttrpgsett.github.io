@@ -16,6 +16,12 @@
     {% include head-custom.html %}
   </head>
   <body>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+        <h1>{{ page.title | default: site.title }}</h1>
+        <p>{{ page.description | default: site.description}}</p>
+        </header>
+    </div>
     <div class="wrapper">
       <nav>
 <p class="view"><a href="https://ttrpgsett.github.io/categories">Categories</a></p> 
